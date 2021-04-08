@@ -1,0 +1,54 @@
+
+/* {box-sizing: border-box;} */
+
+.chat-popup.invisible {
+display: none;
+}
+
+.chat-popup.visible {
+  display: block;
+  
+}
+
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  /* display: none; */
+  position: fixed;
+  bottom: 10vh;
+  right: 0;
+  z-index: 9;
+  max-height: 60vh;
+}
+
+/* Add styles to the form container */
+.form-container {
+  color: rgba(235,240,225,100%);
+  width: 25vw;
+  padding: 10px;
+  background-color: rgba(57,66,14,90%);
+}
+
+.chatTitle {
+  color: rgba(255,103,0,100%);
+  font-weight:bolder;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+ button.button.chatButton {
+  background-color: rgba(255,103,0,100%);
+}
+
+@media screen and (max-width: 63.9375em){
+  .chat-popup{
+    width:100%
+  }
+  .form-container {
+    width:100%;
+  }
+}

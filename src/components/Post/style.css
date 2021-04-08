@@ -1,0 +1,21 @@
+.poster-thumbnail {
+    border-radius: 50%;
+    width: 80px;
+    height: auto;
+}
+
+.postBox {
+    background-color: rgba(235,240,235,50%);
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.dateInfo {
+    font-size:small;
+}
+
+.locationInfo {
+    color: rgba(19,131,242, 100%);
+    font-size: smaller;
+}

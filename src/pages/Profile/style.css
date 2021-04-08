@@ -1,0 +1,53 @@
+.hero-section {
+    background: 50% no-repeat;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.bannerimage {
+    width: 100%;
+
+}
+
+.bannerdiv {
+    overflow:hidden;
+    height:30vh;
+}
+.bannerName {
+    position:relative;
+    top: -10vh;
+}
+
+.profileIcons{
+    color: rgba(28,33,1,100%);
+}
+
+.createBtnColumn{
+position: absolute;
+right: 0;
+top:10vh;
+padding:10px;
+border-radius: 0px 0px 0px 10px;
+background-color: rgba(235,240,235,100%);
+}
+
+.detailsDiv {
+    padding: 10px 10px;
+}
+
+.userName {
+    color:rgba(19,131,242, 100%);
+}
+
+.locationProfile {
+    font-size: 0.8rem;
+}
+

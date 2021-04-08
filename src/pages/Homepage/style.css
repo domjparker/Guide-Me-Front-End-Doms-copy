@@ -1,0 +1,97 @@
+
+.homepage {
+  opacity: 0.9;
+  background: url("../../images/lonelywanderer.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+ 
+  .hpTitle {
+    font-family: 'Quicksand', cursive;
+    margin:1rem;
+    margin-top:10vh;
+    display: flex;
+    justify-content: center;
+    color: rgba(19,131,242, 100%);
+    font-size: xx-large;
+   
+  }
+  .callout{
+    margin-top: 20vh;
+    max-width: 80vw;
+    opacity: 0.98;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    border-radius: 10px;
+    background-color: rgba(235,240,235,50%);
+  }
+
+
+.searchBox, .findAdventure{
+  width: 100%;
+}
+  
+  .searchAdventure{
+    width:100%;
+    border-radius: 5px;
+    color:rgba(28,33,1,100%);
+    background-color: rgba(225, 215, 205, 100%);
+  }
+
+  .hostAdventure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color:rgba(28,33,1,100%);
+    background:none;
+  }
+
+  .hostAdventureDiv {
+    padding:0.2rem;
+    width:100%;
+    background-color: rgba(235,240,235,50%);
+  }
+ 
+  .searchAdventure :hover{
+    color: rgb(13, 149, 240);
+  }
+
+  .firstChar {
+    color:rgba(19,131,242, 100%);
+    float: left;
+    font-size: 55px;
+    line-height: 60px;
+    padding-top: 7px;
+    padding-right: 3px;
+    padding-left: 10px;
+
+}
+.introLine, .guideTitle{
+  font-size: 27px;
+  color: rgba(19,131,242, 100%);
+  letter-spacing: 2px;
+}
+
+
+
+.instructions{
+  margin-top: 20px;
+}
+
+.introduction{
+  margin: 10px;
+  margin-top: 15px;  
+}
+
+.howToUse {
+  margin-top:50px;
+}
