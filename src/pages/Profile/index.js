@@ -258,7 +258,7 @@ function Profile(props) {
                                     <Btn className="profileIcons" icon={<i className="far fa-trash-alt"></i>} classes={'alert button expanded'} handleClick={handleDeleteUser} text={' Account'} />
                                 </Cell>
                             </div>
-                        </Cell >
+                        </Cell>
 
                         <div>
                             <Gridx classes="grid-margin-x grid-margin-y">

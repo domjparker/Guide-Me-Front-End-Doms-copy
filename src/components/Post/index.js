@@ -38,7 +38,7 @@ function Post(props) {
                         </Cell>
                         <Cell size={'small-9 postContent'}>
                             <p className=''><Link to={{ pathname: '/public', state: { userId: props.userId } }}>{props.userName}</Link>{props.text}</p>
-                            <img className="adventureImage" src={props.postImageUrl} alt="new adventure image" />
+                            <img className="adventureImage" src={props.postImageUrl} alt="new adventure" />
                             <p className='text-right align-self-bottom locationInfo'>{props.location}</p>
                         </Cell>
                     </Gridx>
